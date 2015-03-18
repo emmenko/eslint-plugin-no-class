@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-class",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Nicola Molinari <emmenko@gmail.com>",
   "description": "ESlint rule to forbid classes",
   "main": "index.js",
