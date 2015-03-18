@@ -1,0 +1,46 @@
+{
+  "name": "eslint-plugin-no-class",
+  "version": "0.0.1",
+  "author": "Nicola Molinari <emmenko@gmail.com>",
+  "description": "ESlint rule to forbid classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run unit-test",
+    "lint": "eslint .",
+    "unit-test": "istanbul cover --dir reports/coverage _mocha tests/**/*.js -- --reporter dot",
+    "coveralls": "cat ./reports/coverage/lcov.info | coveralls"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emmenko/eslint-plugin-no-class"
+  },
+  "homepage": "https://github.com/emmenko/eslint-plugin-no-class",
+  "bugs": "https://github.com/emmenko/eslint-plugin-no-class/issues",
+  "devDependencies": {
+    "coveralls": "2.11.2",
+    "eslint": "0.17.0",
+    "eslint-tester": "0.6.0",
+    "istanbul": "0.3.6",
+    "mocha": "2.1.0"
+  },
+  "keywords": [
+    "eslint-plugin",
+    "eslintplugin",
+    "eslint",
+    "class",
+    "class",
+    "es6"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/emmenko/eslint-plugin-no-class/master/LICENSE"
+    }
+  ]
+}
