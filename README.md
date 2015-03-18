@@ -1,6 +1,8 @@
 eslint-plugin-no-class
 ===================
 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+
 Linting rule for ESLint:
 - [no-class](docs/rules/no-class.md)
 
@@ -42,3 +44,9 @@ Finally, enable the rule.
   }
 }
 ```
+
+[npm-url]: https://npmjs.org/package/eslint-plugin-no-class
+[npm-image]: http://img.shields.io/npm/v/eslint-plugin-no-class.svg?style=flat-square
+
+[travis-url]: https://travis-ci.org/emmenko/eslint-plugin-no-class
+[travis-image]: http://img.shields.io/travis/emmenko/eslint-plugin-no-class/master.svg?style=flat-square
