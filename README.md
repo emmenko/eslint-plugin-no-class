@@ -40,7 +40,7 @@ Finally, enable the rule.
 ```json
 {
   "rules": {
-    "no-class": 2
+    "no-class/no-class": 2
   }
 }
 ```
